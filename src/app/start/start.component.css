@@ -1,0 +1,25 @@
+.body{
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.name {
+    width: 80%;
+    text-align: center;
+}
+
+.header{
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* .input {
+    width: 50%;
+    margin: auto;
+} */
+
+input{
+    height: 30px;
+    max-width: 80%;
+    margin: 10px;
+}

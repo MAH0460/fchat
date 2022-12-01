@@ -1,0 +1,14 @@
+<div class="body">
+    <div class="header">
+        {{name}}
+    </div>
+    <div #chatarea class="chatarea" id="chatarea">
+        <app-messagebox *ngFor="let message of messages" [name]="message['name']" [message]="message['message']" [ngClass]="message['name'] === name ? 'rightfloat' : 'leftfloat'" [time]="message['time']" ></app-messagebox>
+    </div>
+    
+    <div class="sendmessage">
+        <input type="text" placeholder="Type here" class="message" [(ngModel)]="message">
+        <button class="btn btn-success" (click)="onSend()">send</button>
+    </div>
+    
+</div>
