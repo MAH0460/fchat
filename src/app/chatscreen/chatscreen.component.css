@@ -6,7 +6,7 @@
 }
 
 .chatarea {
-  height: 80vh;
+  height: 75vh;
   background: pink;
   padding: 5px;
   overflow: auto;
