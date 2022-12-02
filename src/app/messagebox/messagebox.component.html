@@ -1,7 +1,9 @@
 <div class="block">
-    <div class="box" [ngClass]="flag ? 'harshu' : 'me'">
-        {{message}}
-        <div class="time" [ngClass]="flag ? 'tl' : 'tr'">{{time}}</div>
+  <div class="box" [ngClass]="flag ? 'harshu' : 'me'">
+    <div class="time" [ngClass]="flag ? 'tl' : 'tr'">
+      {{ flag ? "You" : name }}
     </div>
+    {{ message }}
+    <div class="time" [ngClass]="flag ? 'tl' : 'tr'">{{ time }}</div>
+  </div>
 </div>
-
