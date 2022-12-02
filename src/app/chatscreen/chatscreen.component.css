@@ -1,38 +1,38 @@
 .header {
-    background-color: darkturquoise;
-    height: 50px;
-    font-size: 1.5rem;
-    padding: 5px;
+  background-color: darkturquoise;
+  height: 50px;
+  font-size: 1.5rem;
+  padding: 5px;
 }
 
-.chatarea{
-    height: 85vh;
-    background: pink;
-    padding: 5px;
-    overflow: auto;
-    scrollbar-width: 5px;
+.chatarea {
+  height: 80vh;
+  background: pink;
+  padding: 5px;
+  overflow: auto;
+  scrollbar-width: 5px;
 }
 
-.leftfloat{
-    float: left;
-    display: block;
+.leftfloat {
+  float: left;
+  display: block;
 }
 
-.rightfloat{
-    float: right;
-    display: block;
+.rightfloat {
+  float: right;
+  display: block;
 }
 
-.body{
-    padding: 5px;
+.body {
+  padding: 5px;
 }
 .message {
-    height: 42px;
-    width: 100%;
+  height: 42px;
+  width: 100%;
 }
 .btn {
-    width: 60px;
-    position: absolute;
-    right: 10px;
-    margin-top: 2px;
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  margin-top: 2px;
 }
