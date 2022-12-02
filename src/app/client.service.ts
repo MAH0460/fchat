@@ -8,14 +8,22 @@ export class ClientService {
   constructor(private http: HttpClient) {}
 
   public enterUser(data: any) {
-    return this.http.post('http://localhost:8082/createUser', data);
+    return this.http.post(
+      'https://c09rlcfpr9.execute-api.ap-south-1.amazonaws.com/createUser',
+      data
+    );
   }
 
   public sendMessage(data: any) {
-    return this.http.post('http://localhost:8082/sendMessage', data);
+    return this.http.post(
+      'https://c09rlcfpr9.execute-api.ap-south-1.amazonaws.com/sendMessage',
+      data
+    );
   }
 
   public getMessages() {
-    return this.http.get('http://localhost:8082/getMessages');
+    return this.http.get(
+      'https://c09rlcfpr9.execute-api.ap-south-1.amazonaws.com/getMessages'
+    );
   }
 }
